@@ -21,7 +21,7 @@ meta-data-ec2-tags={{ buildkite_agent_meta_data_ec2_tags }}
 build-path="/var/lib/buildkite-agent/builds"
 
 # Directory where the hook scripts are found
-hooks-path="/etc/buildkite-agent/hooks"
+hooks-path="/var/lib/buildkite-agent/hooks"
 
 # Do not run jobs within a pseudo terminal
 # no-pty=true
@@ -38,4 +38,4 @@ debug={{ buildkite_agent_debug }}
 # Don't show colors in logging
 # no-color=true
 
-plugins-path="plugins"
+plugins-path="/var/lib/buildkite-agent/plugins"
