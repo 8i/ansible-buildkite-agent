@@ -5,7 +5,7 @@
            state=present
 
 - name: Configure the Buildkite APT repository
-  apt_repository: repo="deb https://apt.buildkite.com/buildkite-agent stable main"
+  apt_repository: repo="deb https://apt.buildkite.com/buildkite-agent unstable main"
                   state=present
 
 - name: Install Buildkite Agent
